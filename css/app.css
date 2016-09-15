@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Karla';
-@import url('../css/font-awesome.min.css');
+
 body{
     font-family: 'Karla', sans-serif;
 }
@@ -353,13 +353,26 @@ span {
 }
 
 .img_22 {
-    background-image: url(../imgs/bath1.jpg);
+    background-image: url(../imgs/projects/blog/end.png);
     /*
     filter: grayscale(50%);
 filter: brightness(70%);
 */
 }
-
+.img_23 {
+    background-image: url(../imgs/projects/blog/commandments.jpg);
+    /*
+    filter: grayscale(50%);
+filter: brightness(70%);
+*/
+}
+.img_24 {
+    background-image: url(../imgs/projects/blog/dev.jpg);
+    /*
+    filter: grayscale(50%);
+filter: brightness(70%);
+*/
+}
 
 /*FOOTER SECTION*/
 
