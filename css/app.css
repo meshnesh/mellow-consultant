@@ -1,0 +1,657 @@
+@import url('../css/font-awesome.min.css');
+header {
+    font-size: 2em;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+}
+
+p {
+    font-weight: 200;
+}
+
+
+/****************************NAV BAR************************************/
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 50px;
+    height: 70px;
+    text-align: center;
+    background-color: transparent;
+    transition: .5s;
+    color: #000;
+}
+
+nav li {
+    display: inline-block;
+    padding: 24px 10px;
+}
+
+nav li a {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+nav li a:hover {
+    border-bottom: 3px #000 solid;
+    color: #757575;
+}
+
+.toggle-nav {
+    display: none;
+    color: #903;
+}
+
+a:hover,
+a:focus {
+    color: #903;
+}
+
+.nav-mobile style {
+    display: block;
+}
+
+nav.scrolling {
+    background-color: #fefefe;
+    color: #757575;
+    opacity: 2;
+    transition: .5s;
+    z-index: 10;
+}
+
+.hao {
+    border-bottom: 3px #fff solid;
+}
+
+
+/*********NAV BAR END**********/
+
+.logo-img {
+    float: left;
+    width: 5%;
+}
+
+.first-p {
+    width: 75%;
+    margin-top: 20%;
+    font-size: 4.5rem;
+    text-align: center;
+    float: left;
+    font-weight: 600;
+}
+
+.second-p,
+.button {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.second-p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.button {
+    margin-right: 25%;
+    background-color: #000;
+    color: #fefefe;
+    border-radius: 5px;
+    width: 38%;
+}
+
+.button:hover {
+    background-color: #fefefe;
+    color: #000;
+}
+
+.first {
+    color: #fff;
+    background-image: url(../imgs/home.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.facts {
+    margin-top: 5%;
+}
+
+.factsp {
+    text-align: justify;
+}
+
+.servo {
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 200;
+    color: #757575;
+}
+
+
+/*hiring*/
+
+.hire {
+    font-size: 2.9em;
+    font-weight: 800;
+    margin-top: 6%;
+}
+
+.brown {
+    margin-top: 20%;
+    text-align: center;
+    background: #30282A;
+    height: 40vh;
+    color: #fff;
+}
+
+.hiring {
+    border: 2.5px solid #757575;
+    background: transparent;
+    margin-top: 0%;
+    width: 15%;
+    font-size: 1.2em;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #757575;
+}
+
+.done {
+    color: #000;
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+
+/*PROJECTS SECTION*/
+
+.prjctimg {
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.txtprjct {
+    margin-top: 15%;
+    text-align: justify;
+}
+
+.prct {
+    width: 40%;
+}
+
+.prct:hover {
+    border: 2.5px solid transparent;
+    background: #757575;
+    color: #fff;
+}
+
+span {
+    color: #903;
+    font-size: 100px;
+    line-height: 60px;
+    /* padding-top: 4px; */
+    /* padding-left: 3px; */
+    font-family: Georgia;
+}
+
+.icon-one,
+.icon-two,
+.icon-three,
+.icon-four,
+.icon-five,
+.icon-six,
+.icon-seven,
+.icon-eight,
+.icon-nine,
+.icon-one-text,
+.icon-two-text,
+.icon-three-text,
+.icon-four-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.icon-one-text,
+.icon-two-text,
+.icon-three-text {
+    font-size: 1.8em;
+    color: #903;
+}
+
+.icon-four-text {
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+
+.events-prog {
+    color: black;
+    text-align: center;
+    padding-top: 30px
+}
+
+.events-prog .cards-home {
+    padding-bottom: 30px;
+}
+
+.card-small {
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #272727;
+    border-radius: 2px;
+    background-color: ghostwhite;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-small .card-header {
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.card-small .content {
+    padding: 1.3rem;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    display: inline-block;
+}
+
+.card-small p {
+    margin: 0;
+}
+
+.card-small .action {
+    padding: 10px;
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+
+.card-small a {
+    color: #ffab40;
+    margin-right: 1.3rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.card-small .image {
+    position: relative;
+    height: 150px;
+    background-size: 100% 170%;
+    background-repeat: no-repeat;
+}
+
+.card-small .image .card-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1.3rem;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.card-small .image img {
+    border-radius: 2px 2px 0 0;
+    width: 100%;
+    height: 300px;
+}
+
+.card-small {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-event-date {
+    display: inline-block;
+}
+
+.card-event-text {
+    width: 100%
+}
+
+.img_22 {
+    background-image: url(../imgs/bath1.jpg);
+    /*
+    filter: grayscale(50%);
+filter: brightness(70%);
+*/
+}
+
+
+/*FOOTER SECTION*/
+
+.fcbk,
+.sendgool {
+    width: 100%;
+}
+
+.facebook,
+.google {
+    height: 12em;
+    background-color: #605A5C;
+    text-align: center;
+}
+
+.twitter,
+.pinterest {
+    height: 12em;
+    background-color: #F63C3C;
+    text-align: center;
+}
+
+.scial {
+    font-size: 1.9em;
+    margin-top: 21%;
+}
+
+.final {
+    background-color: #eee;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2%;
+    color: #605A5C;
+    font-size: 1.2em;
+}
+
+
+/*form*/
+
+.actions {
+    list-style-type: none
+}
+
+.sending {
+    width: 40%;
+}
+
+.formspree {
+    border: 2.5px solid transparent;
+    background: transparent;
+    border-bottom: #000 solid 1px;
+}
+
+.icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/****************************MEDIA QUERIES************************************/
+
+@media only screen and (max-width: 800px) {
+    .nav li {
+        font-size: 22px;
+        float: left;
+        margin-left: 15%;
+    }
+    .logo-img {
+        float: left;
+        width: 10%;
+    }
+    .first-p {
+        width: 100%;
+        margin-top: 35%;
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .second-p {
+        font-size: 2.3em;
+        font-weight: 400;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .progress,
+    .profile {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .offer {
+        width: 50%;
+        font-size: 1.2em;
+    }
+    .hiring {
+        width: 30%;
+        font-size: 1.8em;
+    }
+    .txtprjct {
+        font-size: 1.6em;
+    }
+    .prct {
+        width: 35%;
+        font-size: 1.3em;
+    }
+    .blg {
+        width: 65%;
+        margin-left: 17%;
+        font-size: 1.1em;
+    }
+    .final {
+        font-size: 1.5em;
+    }
+    .formspree {
+        font-size: 1.2em;
+        height: 5rem;
+    }
+    footer {
+        text-align: center;
+        padding-top: 2%;
+        color: #605A5C;
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h5 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .toggle-nav {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        right: 10px;
+        line-height: 30px;
+        color: color: #903;
+        font-size: 1.5em;
+    }
+    .toggle-nav:after {
+        content: ' Menu';
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .style-mobile {
+        background: #ffffff;
+        top: 51px;
+        position: absolute;
+        width: 100%;
+    }
+    .style-mobile li {
+        display: block;
+        width: 70%;
+        float: right;
+    }
+    .nav {
+        position: relative;
+        display: block;
+        float: none;
+        margin: 0em;
+    }
+    .logo-img {
+        float: left;
+        width: 15%;
+    }
+    .first {
+        color: #fff;
+        background-image: url(../imgs/home.jpg);
+        background-repeat: no-repeat;
+        height: initial;
+        width: 100%;
+        position: relative;
+    }
+    .first-p {
+        width: 100%;
+        margin-top: 20%;
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .second-p {
+        font-size: 0.8em;
+        font-weight: 300;
+        width: 80%;
+        margin-left: 12%;
+        color: #000;
+    }
+    .progress,
+    .profile {
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .offer {
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .brown {
+        margin-top: 20%;
+        text-align: center;
+        background: #30282A;
+        height: 55vh;
+        color: #fff;
+    }
+    .hire {
+        font-size: 1.9em;
+        font-weight: 800;
+        margin-top: 6%;
+    }
+    .hiring {
+        border: 2.5px solid #757575;
+        background: transparent;
+        margin-top: 5%;
+        width: 50%;
+        font-size: 1.1em;
+        font-weight: 200;
+        text-transform: uppercase;
+        color: #757575;
+    }
+    /*
+    .flex-row,
+    .lind-second {
+        order: 1;
+        width: 100%;
+    }
+*/
+    .txtprjct {
+        margin-top: 15%;
+        text-align: justify;
+        font-size: 0.8em;
+    }
+    .card-small .content {
+        font-size: 0.8em;
+        padding: 0rem;
+    }
+    .byeNow {
+        font-size: 0.8em;
+    }
+    .formspree {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .blg {
+        width: 90%;
+        font-size: 0.8em;
+        margin-left: 8%;
+    }
+    header {
+        font-size: 1em;
+        margin-top: 5%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
+/*
+@media only screen and (max-width: 600px) {
+    .first-p {
+        width: 100%;
+        margin-top: 20%;
+        font-size: 3.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .second-p,
+    .facts,
+    .service,
+    .prjctxt {
+        font-size: 1.7em;
+    }
+    .hire {
+        font-size: 2.6em;
+        font-weight: 800;
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .blg {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .hire {
+        font-size: 1.9em;
+        font-weight: 800;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .brown {
+        margin-top: 20%;
+        text-align: center;
+        background: #30282A;
+        height: 60vh;
+        color: #fff;
+    }
+    .hiring {
+        width: 60%;
+    }
+}
+*/
+
+@media only screen and (min-width: 641px) {
+    .nav-mobile {
+        display: block !important;
+    }
+}
+
+
+/*********MEDIA QUERY END**********/
