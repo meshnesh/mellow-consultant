@@ -11,6 +11,9 @@ h5 {
     font-weight: 600;
     text-align: left;
 }
+h6{
+    text-transform: uppercase;
+}
 
 p {
     font-weight: 200;
@@ -173,7 +176,25 @@ nav.scrolling {
     font-weight: 100;
 }
 
+.progress {
+/*    background: transparent;*/
+        height: 2rem;
+}
 
+
+.tech{
+    text-align: left;
+    text-transform: uppercase;
+}
+.percnt{
+    text-align: right;
+}
+.progress-meter-text{
+    width: 100%
+}
+.bigFoot{
+    float: right;
+}
 /*PROJECTS SECTION*/
 
 .prjctimg {
@@ -428,7 +449,7 @@ footer {
         width: 80%;
         margin-left: 10%;
     }
-    .progress,
+    .progressto,
     .profile {
         width: 100%;
         font-size: 1.2em;
@@ -531,7 +552,7 @@ footer {
         margin-left: 12%;
         color: #000;
     }
-    .progress,
+    .progressto,
     .profile {
         width: 100%;
         font-size: 0.8em;
