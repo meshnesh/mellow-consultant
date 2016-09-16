@@ -23,6 +23,15 @@ p {
     font-weight: 200;
 }
 
+.social{
+    list-style-type: none;
+    padding: 24px 10px;
+}
+.social li{
+    display: inline-block;
+    padding-right: 5%;
+}
+
 
 /****************************NAV BAR************************************/
 
@@ -394,7 +403,7 @@ span {
 .twitter,
 .pinterest {
     height: 12em;
-    background-color: #F63C3C;
+    background-color: #903;
     text-align: center;
 }
 
