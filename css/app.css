@@ -184,6 +184,9 @@ nav.scrolling {
 /*    background: transparent;*/
         height: 2rem;
 }
+.progress-meter {
+    background-color: #000;
+}
 
 
 .tech{
@@ -192,6 +195,7 @@ nav.scrolling {
 }
 .percnt{
     text-align: right;
+    color: #903;
 }
 .progress-meter-text{
     width: 100%
@@ -352,26 +356,33 @@ span {
     width: 100%
 }
 
+.titanium{
+    background-color: #eee;
+}
+
+.card-header:hover{
+    color: #eee;
+}
 .img_22 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/projects/blog/end.png);
+}
+.img_22:hover{
     background-image: url(../imgs/projects/blog/end.png);
-    /*
-    filter: grayscale(50%);
-filter: brightness(70%);
-*/
+    
 }
 .img_23 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/projects/blog/commandments.jpg);
+}
+
+.img_23:hover{
     background-image: url(../imgs/projects/blog/commandments.jpg);
-    /*
-    filter: grayscale(50%);
-filter: brightness(70%);
-*/
 }
 .img_24 {
-    background-image: url(../imgs/projects/blog/dev.jpg);
-    /*
-    filter: grayscale(50%);
-filter: brightness(70%);
-*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/projects/blog/dev.jpg);
+}
+
+.img_24:hover{
+    background-image:  url(../imgs/projects/blog/dev.jpg);
 }
 
 /*FOOTER SECTION*/
