@@ -431,6 +431,7 @@ footer {
     border-bottom: #000 solid 1px;
 }
 
+/*
 .icon:before {
     display: inline-block;
     font-family: FontAwesome;
@@ -442,6 +443,7 @@ footer {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+*/
 
 
 /****************************MEDIA QUERIES************************************/
