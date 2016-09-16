@@ -49,11 +49,6 @@ nav li a {
     font-weight: bolder;
 }
 
-nav li a:hover {
-    border-bottom: 3px #000 solid;
-    color: #757575;
-}
-
 .toggle-nav {
     display: none;
     color: #903;
@@ -76,9 +71,6 @@ nav.scrolling {
     z-index: 10;
 }
 
-.hao {
-    border-bottom: 3px #fff solid;
-}
 
 
 /*********NAV BAR END**********/
