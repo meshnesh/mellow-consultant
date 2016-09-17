@@ -440,20 +440,23 @@ footer {
     border-bottom: #000 solid 1px;
 }
 
-/*
-.icon:before {
-    display: inline-block;
-    font-family: FontAwesome;
-    font-size: 1.25em;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.fa-facebook, .fa-linkedin, .fa-google-plus, .fa-pinterest, .fa-github-alt{
+    color: #757575;
 }
-*/
 
+    
+
+.fa-facebook:hover, .fa-linkedin:hover{
+    color: #2199e8;
+}
+
+.fa-github-alt:hover{
+    color: #000;
+}
+
+.fa-google-plus:hover, .fa-pinterest:hover{
+    color: #e82121;
+}
 
 /****************************MEDIA QUERIES************************************/
 
