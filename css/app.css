@@ -5,9 +5,10 @@ body{
 }
 header {
     font-size: 2em;
-    margin-top: 5%;
+    margin-top: 10%;
     text-align: center;
     text-transform: uppercase;
+        margin-bottom: 10%;
 }
 
 h5 {
@@ -162,6 +163,7 @@ nav.scrolling {
     background: #30282A;
     height: 40vh;
     color: #fff;
+    margin-bottom: 5%;
 }
 
 .hiring {
@@ -173,6 +175,10 @@ nav.scrolling {
     font-weight: 200;
     text-transform: uppercase;
     color: #757575;
+}
+
+.tushughuli{
+    margin-bottom: 5%;
 }
 
 .done {
