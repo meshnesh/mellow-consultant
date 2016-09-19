@@ -166,14 +166,14 @@ nav.scrolling {
 }
 
 .hiring {
-    border: 2.5px solid #757575;
+    border: 2.5px solid #903;
     background: transparent;
     margin-top: 0%;
     width: 15%;
     font-size: 1.2em;
     font-weight: 200;
     text-transform: uppercase;
-    color: #757575;
+    color: #903;
 }
 
 .tushughuli {
@@ -433,7 +433,8 @@ span {
 }
 
 .final {
-    background-color: #eee;
+    background-image: url(../imgs/images-11.jpeg);
+    color: #903;
 }
 
 footer {
@@ -457,7 +458,8 @@ footer {
 .formspree {
     border: 2.5px solid transparent;
     background: transparent;
-    border-bottom: #000 solid 1px;
+    border-bottom: #903 solid 3px;
+    color: #903;
 }
 
 .fa-facebook,
