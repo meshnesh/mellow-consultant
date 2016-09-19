@@ -1,22 +1,23 @@
 @import 'https://fonts.googleapis.com/css?family=Karla';
-
-body{
+body {
     font-family: 'Karla', sans-serif;
 }
+
 header {
     font-size: 2em;
     margin-top: 10%;
     text-align: center;
     text-transform: uppercase;
-        margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 h5 {
     text-transform: uppercase;
     font-weight: 600;
-    text-align: left;
+    text-align: right;
 }
-h6{
+
+h6 {
     text-transform: uppercase;
 }
 
@@ -24,11 +25,12 @@ p {
     font-weight: 200;
 }
 
-.social{
+.social {
     list-style-type: none;
     padding: 24px 10px;
 }
-.social li{
+
+.social li {
     display: inline-block;
     padding-right: 5%;
 }
@@ -80,7 +82,6 @@ nav.scrolling {
     transition: .5s;
     z-index: 10;
 }
-
 
 
 /*********NAV BAR END**********/
@@ -154,16 +155,14 @@ nav.scrolling {
 .hire {
     font-size: 2.9em;
     font-weight: 800;
-    margin-top: 6%;
 }
 
 .brown {
-    margin-top: 20%;
+    margin-top: 5%;
     text-align: center;
     background: #30282A;
     height: 40vh;
     color: #fff;
-    margin-bottom: 5%;
 }
 
 .hiring {
@@ -177,8 +176,17 @@ nav.scrolling {
     color: #757575;
 }
 
-.tushughuli{
+.tushughuli {
     margin-bottom: 5%;
+}
+
+.nasav {
+    text-align: right;
+    margin-top: 2%;
+}
+
+.mellow {
+    margin-right: 0%;
 }
 
 .done {
@@ -188,28 +196,33 @@ nav.scrolling {
 }
 
 .progress {
-/*    background: transparent;*/
-        height: 2rem;
+    /*    background: transparent;*/
+    height: 2rem;
 }
+
 .progress-meter {
     background-color: #000;
 }
 
-
-.tech{
+.tech {
     text-align: left;
     text-transform: uppercase;
 }
-.percnt{
+
+.percnt {
     text-align: right;
     color: #903;
 }
-.progress-meter-text{
+
+.progress-meter-text {
     width: 100%
 }
-.bigFoot{
+
+.bigFoot {
     float: right;
 }
+
+
 /*PROJECTS SECTION*/
 
 .prjctimg {
@@ -234,10 +247,7 @@ nav.scrolling {
 
 span {
     color: #903;
-    font-size: 100px;
-    line-height: 60px;
-    /* padding-top: 4px; */
-    /* padding-left: 3px; */
+    font-size: 23px;
     font-family: Georgia;
 }
 
@@ -363,34 +373,38 @@ span {
     width: 100%
 }
 
-.titanium{
+.titanium {
     background-color: #eee;
 }
 
-.card-header:hover{
+.card-header:hover {
     color: #eee;
 }
+
 .img_22 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/projects/blog/end.png);
 }
-.img_22:hover{
+
+.img_22:hover {
     background-image: url(../imgs/projects/blog/end.png);
-    
 }
+
 .img_23 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/projects/blog/commandments.jpg);
 }
 
-.img_23:hover{
+.img_23:hover {
     background-image: url(../imgs/projects/blog/commandments.jpg);
 }
+
 .img_24 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/projects/blog/dev.jpg);
 }
 
-.img_24:hover{
-    background-image:  url(../imgs/projects/blog/dev.jpg);
+.img_24:hover {
+    background-image: url(../imgs/projects/blog/dev.jpg);
 }
+
 
 /*FOOTER SECTION*/
 
@@ -446,23 +460,28 @@ footer {
     border-bottom: #000 solid 1px;
 }
 
-.fa-facebook, .fa-linkedin, .fa-google-plus, .fa-pinterest, .fa-github-alt{
+.fa-facebook,
+.fa-linkedin,
+.fa-google-plus,
+.fa-pinterest,
+.fa-github-alt {
     color: #757575;
 }
 
-    
-
-.fa-facebook:hover, .fa-linkedin:hover{
+.fa-facebook:hover,
+.fa-linkedin:hover {
     color: #2199e8;
 }
 
-.fa-github-alt:hover{
+.fa-github-alt:hover {
     color: #000;
 }
 
-.fa-google-plus:hover, .fa-pinterest:hover{
+.fa-google-plus:hover,
+.fa-pinterest:hover {
     color: #e82121;
 }
+
 
 /****************************MEDIA QUERIES************************************/
 
