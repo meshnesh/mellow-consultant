@@ -1,11 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Karla';
 body {
     font-family: 'Karla', sans-serif;
+    text-align: justify;
 }
 
 header {
     font-size: 2em;
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3%;
@@ -22,7 +23,7 @@ h6 {
 }
 
 p {
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .social {
@@ -113,7 +114,7 @@ nav.scrolling {
 }
 
 .button {
-    margin-right: 25%;
+    margin-right: 19%;
     background-color: #000;
     color: #fefefe;
     border-radius: 5px;
@@ -155,6 +156,7 @@ nav.scrolling {
 .hire {
     font-size: 2.9em;
     font-weight: 800;
+    margin-top: 5%;
 }
 
 .brown {
@@ -183,10 +185,6 @@ nav.scrolling {
 .nasav {
     text-align: right;
     margin-top: 2%;
-}
-
-.mellow {
-    margin-right: 0%;
 }
 
 .done {
@@ -433,8 +431,9 @@ span {
 }
 
 .final {
-    background-image: url(../imgs/images-11.jpeg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../imgs/images-11.jpeg);
     color: #903;
+    font-weight: 800;
 }
 
 footer {
